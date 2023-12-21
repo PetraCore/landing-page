@@ -142,3 +142,42 @@ ul.links {
     font-weight: 800;
     text-align: right;
 }
+
+.signup-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 20px;
+}
+
+.signup-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+    border-radius: 5px;
+    padding: 40px 6%;
+    width: 45%;
+    background-color: #3882F6;
+    color: #FFF;
+}
+
+.signup-box button {
+    width: 100px;
+    height: 32px;
+    flex: 0 1 auto;
+    background-color: #3882F6;
+    border: 2px solid #FFF;
+    border-radius: 5px;
+    color: #FFF;
+}
+
+.signup-box h3,
+.signup-box p {
+    margin: 0;
+}
+
+.signup-box p {
+    font-weight: 300;
+}
