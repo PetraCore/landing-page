@@ -17,6 +17,11 @@ h1 {
     margin: 0;
 }
 
+h2 {
+    font-size: 40px;
+    margin: 0 0 50px 0;
+}
+
 .header {
     display: flex;
     flex-direction: column;
@@ -83,3 +88,32 @@ ul.links {
     background-color: #757b85;
 }
 
+.information {
+    text-align: center;
+    padding: 50px 50px 100px 50px;
+}
+
+.card-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+}
+
+.card-box .image-placeholder {
+    width: 200px;
+    height: 200px;
+    border: 3px solid #3882F6;
+    border-radius: 10%;
+}
+
+.information .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.information .card p {
+    width: 200px;
+}
