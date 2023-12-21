@@ -181,3 +181,12 @@ ul.links {
 .signup-box p {
     font-weight: 300;
 }
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
