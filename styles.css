@@ -26,8 +26,7 @@ h2 {
     display: flex;
     flex-direction: column;
     gap: 96px;
-    padding: 16px 250px 100px 250px;
-    /* TODO: Try to find an alternate method without using so much padding */
+    padding: 16px 20% 100px 20%;
     background-color: #1F2937;
     color: #FFF;
 }
@@ -40,7 +39,7 @@ h2 {
 
 .upper-header {
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
@@ -59,7 +58,7 @@ ul.links {
 
 .lower-header {
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap-reverse;
     gap: 48px;
 }
 
@@ -85,6 +84,7 @@ ul.links {
     justify-content: center;
     align-items: center;
     flex: 1;
+    padding: 50px;
     background-color: #757b85;
 }
 
@@ -97,6 +97,7 @@ ul.links {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     gap: 48px;
 }
 
