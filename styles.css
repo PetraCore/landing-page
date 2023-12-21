@@ -90,7 +90,7 @@ ul.links {
 
 .information {
     text-align: center;
-    padding: 50px 50px 100px 50px;
+    padding: 50px 10% 100px 10%;
 }
 
 .card-box {
@@ -124,11 +124,11 @@ ul.links {
     justify-content: center;
     align-items: center;
     background-color: #E5E7EB;
-    padding: 150px 20px;
+    padding: 150px 10%;
 }
 
 .quote-box {
-    width: 45%;
+    width: 75%;
 }
 
 .quote-box .quote {
@@ -148,7 +148,7 @@ ul.links {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 100px 20px;
+    padding: 100px 15%;
 }
 
 .signup-box {
@@ -159,7 +159,7 @@ ul.links {
     gap: 24px;
     border-radius: 5px;
     padding: 40px 6%;
-    width: 45%;
+    width: 75%;
     background-color: #3882F6;
     color: #FFF;
 }
@@ -187,7 +187,7 @@ ul.links {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 40px 20px;
+    padding: 40px 10%;
     background-color: #1F2937;
     color: #F9FAF8;
 }
